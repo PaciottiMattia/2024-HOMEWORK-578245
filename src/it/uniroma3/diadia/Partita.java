@@ -67,5 +67,9 @@ public class Partita {
 
 	public Giocatore getGiocatore() {
 		return this.giocatore;
-	}	
+	}
+	
+	public void setGiocatore(Giocatore giocatore) {
+		this.giocatore=giocatore;
+	}
 }

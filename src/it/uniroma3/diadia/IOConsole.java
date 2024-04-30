@@ -12,13 +12,14 @@ import java.util.Scanner;
  */
 
 
-public class IOConsole {
+public class IOConsole implements IO {
 	
 	
 	/**
 	 * 
 	 * @param msg il parametro da stampare su schermo all'utente
 	 */
+	@Override
 	public void mostraMessaggio(String msg) {
 		System.out.println(msg);
 	}
@@ -32,4 +33,5 @@ public class IOConsole {
 		//scannerDiLinee.close();
 		return riga;
 	}
+	
 }

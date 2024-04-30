@@ -33,7 +33,7 @@ public class Attrezzo {
 	public String getNome() {
 		return this.nome;
 	}
-
+	
 	/**
 	 * Restituisce il peso dell'attrezzo
 	 * @return il peso dell'attrezzo
